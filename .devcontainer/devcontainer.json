@@ -1,11 +1,11 @@
 {
-  "name": "Node.js & TypeScript",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "VARIANT": "18-bullseye"
-    }
-  },
+  "name": "Node.js",
+  // "build": {
+  //   "dockerfile": "Dockerfile",
+  //   "args": {
+  //     "VARIANT": "18-bullseye"
+  //   }
+  // },
 
   // Configure tool-specific properties.
   "customizations": {
@@ -34,5 +34,5 @@
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "yarn install",
 
-  "remoteUser": "node"
+  // "remoteUser": "node"
 }
