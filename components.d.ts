@@ -7,11 +7,11 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    IconAbs035: typeof import('./src/components/icons/IconAbs035.vue')['default']
-    IconDiscord: typeof import('./src/components/icons/IconDiscord.vue')['default']
-    IconFin002: typeof import('./src/components/icons/IconFin002.vue')['default']
-    IconGen025: typeof import('./src/components/icons/IconGen025.vue')['default']
-    IconSoc006: typeof import('./src/components/icons/IconSoc006.vue')['default']
+    IconAbs035: typeof import('./src/components/Icons/IconAbs035.vue')['default']
+    IconDiscord: typeof import('./src/components/Icons/IconDiscord.vue')['default']
+    IconFin002: typeof import('./src/components/Icons/IconFin002.vue')['default']
+    IconGen025: typeof import('./src/components/Icons/IconGen025.vue')['default']
+    IconSoc006: typeof import('./src/components/Icons/IconSoc006.vue')['default']
     NavigationBar: typeof import('./src/components/NavigationBar/NavigationBar.vue')['default']
     NavigationBarItem: typeof import('./src/components/NavigationBar/NavigationBarItem.vue')['default']
     NavigationBarLink: typeof import('./src/components/NavigationBar/NavigationBarLink.vue')['default']
