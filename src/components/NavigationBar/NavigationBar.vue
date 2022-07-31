@@ -36,6 +36,14 @@ const image = new URL(
         class="aside-footer d-flex flex-column align-items-center flex-column-auto"
       >
         <NavigationBarItemSocial
+          name="TikTok"
+          route="https://tiktok.com"
+          class="mb-2"
+        >
+          <IconSoc008 />
+        </NavigationBarItemSocial>
+
+        <NavigationBarItemSocial
           name="Twitter"
           route="https://twitter.com/UseAleron"
           class="mb-2"
