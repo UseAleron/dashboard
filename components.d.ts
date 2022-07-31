@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     IconFin002: typeof import('./src/components/Icons/IconFin002.vue')['default']
     IconGen025: typeof import('./src/components/Icons/IconGen025.vue')['default']
     IconSoc006: typeof import('./src/components/Icons/IconSoc006.vue')['default']
+    IconSoc008: typeof import('./src/components/Icons/IconSoc008.vue')['default']
     NavigationBar: typeof import('./src/components/NavigationBar/NavigationBar.vue')['default']
     NavigationBarItem: typeof import('./src/components/NavigationBar/NavigationBarItem.vue')['default']
     NavigationBarItemSocial: typeof import('./src/components/NavigationBar/NavigationBarItemSocial.vue')['default']
