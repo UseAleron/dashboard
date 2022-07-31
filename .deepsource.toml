@@ -1,0 +1,19 @@
+version = 1
+
+test_patterns = [
+  "cypress/**.cy.ts",
+  "src/components/__tests__/**"
+]
+
+exclude_patterns = ["components.d.ts"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["vue"]
+
+[[transformers]]
+name = "prettier"
+enabled = true
