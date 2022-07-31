@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     IconSoc006: typeof import('./src/components/Icons/IconSoc006.vue')['default']
     NavigationBar: typeof import('./src/components/NavigationBar/NavigationBar.vue')['default']
     NavigationBarItem: typeof import('./src/components/NavigationBar/NavigationBarItem.vue')['default']
+    NavigationBarItemSocial: typeof import('./src/components/NavigationBar/NavigationBarItemSocial.vue')['default']
     NavigationBarLink: typeof import('./src/components/NavigationBar/NavigationBarLink.vue')['default']
     NavigationBarLogo: typeof import('./src/components/NavigationBar/NavigationBarLogo.vue')['default']
     NavigationBarUser: typeof import('./src/components/NavigationBar/NavigationBarUser.vue')['default']

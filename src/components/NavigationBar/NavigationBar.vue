@@ -35,25 +35,21 @@ const image = new URL(
       <div
         class="aside-footer d-flex flex-column align-items-center flex-column-auto"
       >
-        <div class="d-flex align-items-center mb-2">
-          <NavigationBarLink
-            route="https://twitter.com/UseAleron"
-            name="Twitter"
-            :external="true"
-          >
-            <IconSoc006 />
-          </NavigationBarLink>
-        </div>
+        <NavigationBarItemSocial
+          name="Twitter"
+          route="https://twitter.com/UseAleron"
+          class="mb-2"
+        >
+          <IconSoc006 />
+        </NavigationBarItemSocial>
 
-        <div class="d-flex align-items-center mb-5">
-          <NavigationBarLink
-            route="https://discord.gg"
-            name="Discord"
-            :external="true"
-          >
-            <IconDiscord />
-          </NavigationBarLink>
-        </div>
+        <NavigationBarItemSocial
+          name="Discord"
+          route="https://discord.gg"
+          class="mb-5"
+        >
+          <IconDiscord />
+        </NavigationBarItemSocial>
 
         <div class="d-flex align-items-center mb-10">
           <NavigationBarUser :image="image" />
