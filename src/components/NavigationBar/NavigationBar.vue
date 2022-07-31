@@ -1,0 +1,64 @@
+<script setup lang="ts">
+// component originally called CatastropheBar because we didn't know what to call it
+
+const image = new URL(
+  "https://www.libravatar.org/avatar/23463b99b62a72f26ed677cc556c44e8?s=80&default=retro"
+);
+</script>
+
+<template>
+  <div class="aside aside-fixed w-100px">
+    <div
+      class="bg-dark d-flex flex-column align-items-lg-center flex-row-auto h-100"
+    >
+      <NavigationBarLogo />
+
+      <div
+        class="aside-nav d-flex flex-column align-items-center flex-column-fluid w-100 pt-5 pt-lg-0"
+      >
+        <div class="hover-scroll-overlay-y mb-5 px-5">
+          <ul class="nav flex-column w-100">
+            <NavigationBarItem name="Services" :route="{ name: 'home' }">
+              <IconGen025 />
+            </NavigationBarItem>
+
+            <NavigationBarItem name="Billing" route="/billing">
+              <IconFin002 />
+            </NavigationBarItem>
+
+            <NavigationBarItem name="Support" route="/support">
+              <IconAbs035 />
+            </NavigationBarItem>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="aside-footer d-flex flex-column align-items-center flex-column-auto"
+      >
+        <div class="d-flex align-items-center mb-2">
+          <NavigationBarLink
+            route="https://twitter.com/UseAleron"
+            name="Twitter"
+            :external="true"
+          >
+            <IconSoc006 />
+          </NavigationBarLink>
+        </div>
+
+        <div class="d-flex align-items-center mb-5">
+          <NavigationBarLink
+            route="https://discord.gg"
+            name="Discord"
+            :external="true"
+          >
+            <IconDiscord />
+          </NavigationBarLink>
+        </div>
+
+        <div class="d-flex align-items-center mb-10">
+          <NavigationBarUser :image="image" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
