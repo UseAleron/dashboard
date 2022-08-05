@@ -1,13 +1,11 @@
 {
   "name": "Node.js",
-  // "build": {
-  //   "dockerfile": "Dockerfile",
-  //   "args": {
-  //     "VARIANT": "18-bullseye"
-  //   }
-  // },
-
-  // Configure tool-specific properties.
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "18-bullseye"
+    }
+  },
   "customizations": {
     "codespaces": {
       "repositories": {
@@ -18,21 +16,17 @@
         }
       }
     },
-
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "Vue.volar",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "Vue.volar"
       ]
     }
-  }
-
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-
-  // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "yarn install",
-
-  // "remoteUser": "node"
+  },
+  "postCreateCommand": "npm install",
+  "portsAttributes": {
+    "5173": { "label": "Development server" }
+  },
+  "remoteUser": "node"
 }
