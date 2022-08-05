@@ -5,8 +5,6 @@ defineProps<{
   name: string;
   route: RouteLocationRaw;
 }>();
-
-defineEmits<{ click: () => void }>();
 </script>
 
 <template>
