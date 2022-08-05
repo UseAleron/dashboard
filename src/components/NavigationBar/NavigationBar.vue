@@ -7,14 +7,12 @@ const image = new URL(
 </script>
 
 <template>
-  <div class="aside aside-fixed w-100px">
-    <div
-      class="bg-dark d-flex flex-column align-items-lg-center flex-row-auto h-100"
-    >
+  <div class="aside-fixed d-none d-md-block w-100px">
+    <div class="bg-dark d-flex flex-column align-items-lg-center h-100">
       <NavigationBarLogo />
 
       <div
-        class="aside-nav d-flex flex-column align-items-center flex-column-fluid w-100 pt-5 pt-lg-0"
+        class="aside-nav d-flex flex-column align-items-center flex-column-fluid w-100"
       >
         <div class="hover-scroll-overlay-y mb-5 px-5">
           <ul class="nav flex-column w-100">
