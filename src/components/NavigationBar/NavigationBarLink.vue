@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  name: string;
+  name?: string;
   route: string;
   active?: boolean;
   external?: boolean;
