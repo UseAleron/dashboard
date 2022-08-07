@@ -1,14 +1,13 @@
 <script setup lang="ts">
 defineProps<{
-  name: string;
   route: string;
 }>();
 </script>
 
 <template>
-  <div class="d-flex align-items-center">
-    <NavigationBarLink :route="route" :name="name">
+  <li class="nav-item mx-4">
+    <NavigationBarLink :route="route">
       <slot />
     </NavigationBarLink>
-  </div>
+  </li>
 </template>

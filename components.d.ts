@@ -8,9 +8,12 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     IconAbs035: typeof import('./src/components/Icons/IconAbs035.vue')['default']
+    IconArr095: typeof import('./src/components/Icons/IconArr095.vue')['default']
     IconCom013: typeof import('./src/components/Icons/IconCom013.vue')['default']
     IconDiscord: typeof import('./src/components/Icons/IconDiscord.vue')['default']
     IconFin002: typeof import('./src/components/Icons/IconFin002.vue')['default']
+    IconGen0190: typeof import('./src/components/Icons/IconGen0190.vue')['default']
+    IconGen0191: typeof import('./src/components/Icons/IconGen0191.vue')['default']
     IconGen025: typeof import('./src/components/Icons/IconGen025.vue')['default']
     IconSoc006: typeof import('./src/components/Icons/IconSoc006.vue')['default']
     IconSoc008: typeof import('./src/components/Icons/IconSoc008.vue')['default']
@@ -21,6 +24,7 @@ declare module '@vue/runtime-core' {
     NavigationBarLogo: typeof import('./src/components/NavigationBar/NavigationBarLogo.vue')['default']
     NavigationBarMobile: typeof import('./src/components/NavigationBar/NavigationBarMobile.vue')['default']
     NavigationBarMobileItem: typeof import('./src/components/NavigationBar/NavigationBarMobileItem.vue')['default']
+    NavigationBarMobileItemSocial: typeof import('./src/components/NavigationBar/NavigationBarMobileItemSocial.vue')['default']
     NavigationBarUser: typeof import('./src/components/NavigationBar/NavigationBarUser.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
