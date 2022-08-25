@@ -5,9 +5,11 @@ import { RouterView } from "vue-router";
 <template>
   <NavigationBar />
 
-  <div class="wrapper d-flex flex-column flex-row-fluid container-xxl">
-    <RouterView />
+  <main class="d-flex flex-column flex-row-fluid">
+    <div class="container-xxl">
+      <RouterView />
 
-    <NavigationBarMobile />
-  </div>
+      <NavigationBarMobile />
+    </div>
+  </main>
 </template>
