@@ -25,8 +25,8 @@ const share = async () => {
 </script>
 
 <template>
-  <div
-    class="w-100 bg-dark text-light py-5 fixed-bottom d-md-none d-flex justify-content-evenly"
+  <nav
+    class="shadow-sm py-5 fixed-bottom d-md-none d-flex justify-content-evenly"
     ref="el"
   >
     <div class="mt-1" style="width: 24px">
@@ -85,5 +85,5 @@ const share = async () => {
     </Transition>
 
     <div style="width: 24px" />
-  </div>
+  </nav>
 </template>
