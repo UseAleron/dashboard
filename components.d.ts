@@ -7,8 +7,11 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    GroupCard: typeof import('./src/components/GroupCard.vue')['default']
+    GroupServer: typeof import('./src/components/GroupServer.vue')['default']
     IconAbs035: typeof import('./src/components/Icons/IconAbs035.vue')['default']
     IconArr095: typeof import('./src/components/Icons/IconArr095.vue')['default']
+    IconCod001: typeof import('./src/components/Icons/IconCod001.vue')['default']
     IconCom013: typeof import('./src/components/Icons/IconCom013.vue')['default']
     IconDiscord: typeof import('./src/components/Icons/IconDiscord.vue')['default']
     IconFin002: typeof import('./src/components/Icons/IconFin002.vue')['default']
