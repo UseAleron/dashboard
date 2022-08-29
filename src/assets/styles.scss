@@ -7,16 +7,11 @@ html:not([data-theme="dark"]) {
   --kt-aside-bg-color: #1e1e1e;
 }
 
-aside {
+nav {
   background-color: var(--kt-aside-bg-color);
   width: 100px;
   height: 100%;
   position: fixed;
-}
-
-nav {
-  background-color: var(--kt-aside-bg-color);
-  width: 100%;
 }
 
 main {

@@ -7,7 +7,7 @@ const image = new URL(
 </script>
 
 <template>
-  <aside class="d-none d-md-flex flex-column align-items-lg-center">
+  <nav class="d-none d-md-flex flex-column align-items-lg-center">
     <NavigationBarLogo />
 
     <div
@@ -60,5 +60,5 @@ const image = new URL(
         <NavigationBarUser :image="image" />
       </div>
     </div>
-  </aside>
+  </nav>
 </template>
