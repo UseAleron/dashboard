@@ -33,6 +33,7 @@ declare module '@vue/runtime-core' {
     NavigationBarMobileItemSocial: typeof import('./src/components/NavigationBar/NavigationBarMobileItemSocial.vue')['default']
     NavigationBarUser: typeof import('./src/components/NavigationBar/NavigationBarUser.vue')['default']
     PageHeading: typeof import('./src/components/PageHeading.vue')['default']
+    PageLayout: typeof import('./src/components/PageLayout.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
