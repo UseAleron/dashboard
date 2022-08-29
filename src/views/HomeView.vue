@@ -62,32 +62,38 @@ const groups = ref<Group[]>([
 </script>
 
 <template>
-  <PageHeading title="Servers">
-    <div class="d-flex align-items-center ms-3">
-      <div class="btn-group h-40px">
-        <button type="button" class="btn btn-primary">
-          <span>Create Server</span>
-        </button>
-        <button
-          type="button"
-          class="btn btn-primary dropdown-toggle dropdown-toggle-split px-5 border-start border-dark"
-          style="--bs-border-opacity: 0.2"
-          aria-expanded="false"
-        >
-          <span class="visually-hidden">Toggle Dropdown</span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Create Group</a></li>
-          <li><a class="dropdown-item" href="#">Create Database</a></li>
-        </ul>
-      </div>
-    </div>
-  </PageHeading>
+  <PageLayout>
+    <template #title>
+      <img src="/src/assets/branding/text.png" alt="Aleron Logo" width="130" />
+    </template>
 
-  <GroupCard
-    v-for="group in groups"
-    :key="group.id"
-    :group="group"
-    class="mb-5 mb-xl-8"
-  />
+    <template #header>
+      <div class="d-flex align-items-center ms-3">
+        <div class="btn-group h-40px">
+          <button type="button" class="btn btn-primary">
+            <span>Create Server</span>
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary dropdown-toggle dropdown-toggle-split px-5 border-start border-dark"
+            style="--bs-border-opacity: 0.2"
+            aria-expanded="false"
+          >
+            <span class="visually-hidden">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Create Group</a></li>
+            <li><a class="dropdown-item" href="#">Create Database</a></li>
+          </ul>
+        </div>
+      </div>
+    </template>
+
+    <GroupCard
+      v-for="group in groups"
+      :key="group.id"
+      :group="group"
+      class="mb-5 mb-xl-8"
+    />
+  </PageLayout>
 </template>
