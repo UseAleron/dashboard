@@ -2,12 +2,12 @@
 // component originally called CatastropheBar because we didn't know what to call it
 
 const image = new URL(
-  "https://www.libravatar.org/avatar/23463b99b62a72f26ed677cc556c44e8?s=80&default=retro"
+  "https://www.libravatar.org/avatar/x23463b99b62a72f26ed677cc556c44e8?s=80&default=retro"
 );
 </script>
 
 <template>
-  <nav class="d-none d-md-flex flex-column align-items-lg-center">
+  <nav class="d-none d-md-flex flex-column flex-shrink-0 align-items-lg-center">
     <NavigationBarLogo />
 
     <div
@@ -62,3 +62,10 @@ const image = new URL(
     </div>
   </nav>
 </template>
+
+<style scoped>
+nav {
+  min-width: 100px;
+  height: 100%;
+}
+</style>

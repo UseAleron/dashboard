@@ -87,3 +87,9 @@ const share = async () => {
     <div style="width: 24px" />
   </nav>
 </template>
+
+<style scoped>
+nav {
+  height: 70px;
+}
+</style>

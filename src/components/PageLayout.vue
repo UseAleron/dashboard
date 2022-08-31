@@ -5,8 +5,8 @@ defineProps<{ title?: string }>();
 <template>
   <NavigationBar />
 
-  <main class="d-flex flex-column flex-row-fluid pb-20 pb-md-0">
-    <div class="container-xxl pb-3 pb-md-0">
+  <main class="d-flex flex-column flex-grow-1 overflow-auto">
+    <div class="container-xxl">
       <PageHeading :title="title">
         <template #title>
           <slot name="title" />
