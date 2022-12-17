@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useSwipe } from "@vueuse/core";
 const isToggled = ref(false);
 
 const isTouchDevice = () => window.matchMedia("(pointer: coarse)").matches;

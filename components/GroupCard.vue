@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Group, Server } from "@/types";
-import GroupServer from "@/components/GroupServer.vue";
 
 defineProps<{ group: Group }>();
 

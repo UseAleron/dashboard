@@ -26,7 +26,7 @@
   },
   "postCreateCommand": "npm install",
   "portsAttributes": {
-    "5173": { "label": "Development server" }
+    "3000": { "label": "Development server" }
   },
   "remoteUser": "node"
 }

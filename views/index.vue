@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from "vue";
 import type { Group } from "@/types";
 
 const groups = ref<Group[]>([
