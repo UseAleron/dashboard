@@ -9,7 +9,9 @@
     "design": "git+https://git@github.com/UseAleron/design.git"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.8.1",
     "sass": "npm:sass-embedded@^1.57.1",
     "typescript": "~4.7.4"
