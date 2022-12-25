@@ -6,7 +6,7 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Make sure to install the dependencies:
 
-```bash
+````bash
 # yarn
 yarn install
 
@@ -23,7 +23,7 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ```sh
 pnpm install
-```
+````
 
 ### Development Server
 
