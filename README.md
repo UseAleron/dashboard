@@ -1,6 +1,6 @@
-# aleron-dashboard
+# Aleron Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Recommended IDE Setup
 
@@ -24,25 +24,31 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development Server
+
+Start the development server on http://localhost:3000
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Production
+
+Build the application for production:
 
 ```sh
-npm run build
+pnpm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Preview
+
+Locally preview production build:
 
 ```sh
-npm run test:unit
+pnpm run preview
 ```
 
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)

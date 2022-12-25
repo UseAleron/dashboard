@@ -2,7 +2,11 @@
   "name": "aleron-dashboard",
   "version": "0.0.0",
   "scripts": {
-    "preview": "vite preview --port 4173",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
@@ -12,8 +16,9 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
+    "nuxt": "^3.0.0",
     "prettier": "^2.8.1",
     "sass": "npm:sass-embedded@^1.57.1",
-    "typescript": "~4.7.4"
+    "typescript": "~4.9.4"
   }
 }
