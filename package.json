@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "aleron-dashboard",
+  "version": "0.0.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -9,17 +10,16 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "design": "git+https://github.com/UseAleron/design.git#v8.1.6"
+    "design": "git+https://git@github.com/UseAleron/design.git"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@vueuse/core": "^9.7.0",
-    "@vueuse/nuxt": "^9.7.0",
+    "@vueuse/nuxt": "^9.9.0",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
-    "nuxt": "3.0.0",
+    "nuxt": "^3.0.0",
     "prettier": "^2.8.1",
-    "sass": "npm:sass-embedded@^1.54.4",
-    "typescript": "^4.9.4"
+    "sass": "npm:sass-embedded@^1.57.1",
+    "typescript": "~4.9.4"
   }
 }

@@ -1,6 +1,6 @@
 $dark: #1e1e1e;
 
-@import "design/style.scss";
+@import "design";
 
 html:not([data-theme="dark"]) {
   --kt-page-bg: #eaecf3;
